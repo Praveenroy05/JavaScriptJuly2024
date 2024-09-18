@@ -64,15 +64,20 @@ var c =20;
 var c =30;
 c =50
 
-// var - Global scope or Function scope
-// You can redeclare var , redefine it
+// 1. Scope -  Global or Functional scope
+// 2. Variable decleared using var can be redeclared and reinitialzed
+// 3. It is not mandatory to initialise the varaible at the time of declartion
 
-// let  - Block - {....} scoped or gloabl
-// You can not redeclare let , redefine it
+// let - Value of the variable can be changed at any time of point
+// 1. Scope - Block scope {}
+// 2. Variable decleared using let can be reinitialzed but can not be redeclared
+// 3. It is not mandatory to initialise the varaible at the time of declartion
 
-// const - Block - {....} scoped or global
-// it is use to store constant variable
-// You can not redeclare const and cannot redefine it
+// const  - Which is use to declare a constant variable - 
+
+// 1. Scope  - Block scope {}
+// 2. Variable decleared using const can not be redeclared and cannot reinitialzed
+// 3. It is mandatory to initialise the value at the time of declaration
 
 var r; // undefined
 let s; // undefined
